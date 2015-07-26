@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="cssfor.css" />
+<script type="text/javascript" src="jsfor.js"></script>
+<style>
+/*  instead of*/
+</style>
+</head>
+<body>
+
+<div class="container">
+<form name="myform" action="#" method="post">
+<fieldset>
+<legend>Contact Me</legend>
+<div class="form-group">
+<label>Name</label>
+<input type="text" required name="name" placeholder="Name*"
+data-error-message="Please Type Your Full Name." />
+</div>
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" required name="email" placeholder="Email Address*"
+data-error-message="Please Type Your Email Id." />
+</div>
+<div class="form-group">
+<label>Phone Number</label>
+<input type="tell" required name="phone" placeholder="Phone Number*"
+data-error-message="Please Type Your Phone Number." />
+</div>
+<div class="form-group">
+<label>Message</label>
+<textarea required name="message" placeholder="Message*"
+data-error-message="Please Type Your Message here."></textarea>
+</div>
+<button type="submit" class="btttn btttn-success">Submit</button>
+</fieldset>
+</form>
+</div>
+
+
+</body>
+</html>
