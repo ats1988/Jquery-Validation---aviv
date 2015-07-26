@@ -1,0 +1,62 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+.container {
+max-width: 46em;
+margin: 0 auto;
+width: 100%;
+font: 400 13px/15px Arial;
+}
+fieldset {
+border-radius: .5em;
+padding: 0 20px 20px 20px;
+}
+legend {
+font: 800 16px/18px Arial;
+}
+input[type="text"],
+input[type="email"],
+input[type="tell"],
+textarea {
+background-color: #ffffff;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+color: #2c3e50;
+font: 400 13px/15px Arial;
+padding:10px;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+width: 100%;
+}
+input:focus {
+border-color: #2c3e50;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(44, 62, 80, 0.6);
+outline: 0 none;
+}
+.btttn {
+background-color: #009948;
+border: 1px solid #18bc9c;
+border-radius: 4px;
+cursor: pointer;
+color: #fff;
+display: inline-block;
+margin-top: 20px;
+padding:4px 15px;
+white-space: nowrap;
+}
+.Error_now {
+/* */
+}
+
+label {
+display: block;
+font-size: 0.85em;
+line-height: 1.76471em;
+margin: 5px 0;
+opacity: 0;
+transition: top 0.3s ease 0s, opacity 0.3s ease 0s;
+}
+.fill_INTO_THE_Start label {
+opacity: 1;
+}
